@@ -1,6 +1,7 @@
 package com.carRental.CarRental.entites;
 
 
+import com.carRental.CarRental.CarStatus;
 import com.carRental.CarRental.FuelType;
 import com.carRental.CarRental.Transmission;
 import jakarta.persistence.Entity;
@@ -51,7 +52,7 @@ public class Car {
 
 
 
-//    private CartStatus cartStatus;
+    private CarStatus cartStatus;
 
 
     private  String description;
