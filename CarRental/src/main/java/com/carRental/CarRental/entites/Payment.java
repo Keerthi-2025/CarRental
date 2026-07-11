@@ -31,7 +31,7 @@ public class Payment {
     private  PaymentStatus paymentGateway;
 
     @Column
-    private  String gatewatPaymentId;
+    private  String gatewayPaymentId;
 
     @Column(nullable = false)
     private BigDecimal amt;
