@@ -24,6 +24,7 @@ public class Booking {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
+    @Column(name = "booking_id")
     private UUID bookingId;
 
     @Column(nullable = false)

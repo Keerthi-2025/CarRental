@@ -1,8 +1,8 @@
 package com.carRental.CarRental.entites;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import com.carRental.CarRental.PaymentStatus;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.math.BigDecimal;
@@ -20,13 +20,31 @@ import java.util.UUID;
 
 public class Payment {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
+    @Column(name = "payment_id")
     private UUID paymentId;
 
-    private String paymentGateway;
 
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private  PaymentStatus paymentGateway;
+
+    @Column
     private  String gatewatPaymentId;
 
+    @Column(nullable = false)
     private BigDecimal amt;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private PaymentStatus paymentStatus;
+
+    @OneToOne
+    @JoinColumn(name = "booking_id", nullable = false)
+    private  Booking booking;
+
+
 
 
 }
