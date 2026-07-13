@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Entity
@@ -35,7 +36,7 @@ public class OtpVerification {
     private OtpPurpose otpPurpose;
 
     @Column(nullable = false)
-    private LocalDate expiryTime;
+    private LocalDateTime expiryTime;
 
     @Column(nullable = false)
     private  Boolean verified = false;

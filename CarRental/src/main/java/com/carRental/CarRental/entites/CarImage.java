@@ -25,6 +25,9 @@ public class CarImage {
     @Column(name = "car_id")
     private UUID imageId;
 
+    @Column(nullable = false)
+    private String imageUrl;
+
     @ManyToOne
     @JoinColumn(nullable = false)
     private  Car car;

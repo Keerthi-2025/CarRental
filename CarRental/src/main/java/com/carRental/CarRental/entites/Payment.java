@@ -2,6 +2,7 @@ package com.carRental.CarRental.entites;
 
 
 import com.carRental.CarRental.PaymentStatus;
+import com.carRental.CarRental.PaymentGateway;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -28,7 +29,7 @@ public class Payment {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private  PaymentStatus paymentGateway;
+    private PaymentGateway paymentGateway;
 
     @Column
     private  String gatewayPaymentId;

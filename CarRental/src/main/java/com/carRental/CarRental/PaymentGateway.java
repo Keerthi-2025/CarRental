@@ -1,4 +1,4 @@
-package com.carRental;
+package com.carRental.CarRental;
 
 public enum PaymentGateway {
     RAZORPAY,
