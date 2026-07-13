@@ -16,5 +16,5 @@ public interface OtpVerificationRepository extends JpaRepository<OtpVerification
     Optional<OtpVerification> findByEmail(String email);
 
 
-    void deleteNyEmail(String email);
+    void deleteByEmail(String email);
 }

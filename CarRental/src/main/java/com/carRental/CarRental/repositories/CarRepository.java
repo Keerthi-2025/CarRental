@@ -1,6 +1,8 @@
 package com.carRental.CarRental.repositories;
 
 import com.carRental.CarRental.CarStatus;
+import com.carRental.CarRental.FuelType;
+import com.carRental.CarRental.Transmission;
 import com.carRental.CarRental.entites.Car;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -18,5 +20,9 @@ public interface CarRepository extends JpaRepository<Car, UUID> {
     List<Car> findByCarNameContainingIgnoreCase(String carName);
 
     List<Car> findByCarStatus(CarStatus carStatus);
+
+    List<Car> findByFuelType(FuelType fuelType);
+
+    List<Car> findByTransmission(Transmission transmission);
 
 }
