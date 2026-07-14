@@ -17,6 +17,7 @@ public class UserMapper {
                 .password(password)
                 .phone(phone)
                 .role(role)
+                .enabled(false)
                 .build();
     }
 
