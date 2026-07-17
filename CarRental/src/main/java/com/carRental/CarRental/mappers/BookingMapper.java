@@ -1,7 +1,7 @@
 package com.carRental.CarRental.mappers;
 
 
-import com.carRental.CarRental.BookingStatus;
+import com.carRental.CarRental.enums.BookingStatus;
 import com.carRental.CarRental.entites.Booking;
 import org.springframework.stereotype.Component;
 

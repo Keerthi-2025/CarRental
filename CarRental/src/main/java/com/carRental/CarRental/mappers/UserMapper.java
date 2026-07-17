@@ -1,7 +1,7 @@
 package com.carRental.CarRental.mappers;
 
 
-import com.carRental.CarRental.RoleType;
+import com.carRental.CarRental.enums.RoleType;
 import com.carRental.CarRental.entites.User;
 import org.springframework.stereotype.Component;
 

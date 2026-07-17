@@ -1,4 +1,4 @@
-package com.carRental.CarRental;
+package com.carRental.CarRental.enums;
 
 public enum BookingStatus {
 

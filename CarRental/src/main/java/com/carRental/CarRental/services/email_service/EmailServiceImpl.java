@@ -1,4 +1,4 @@
-package com.carRental.CarRental.services;
+package com.carRental.CarRental.services.email_service;
 
 
 import org.springframework.mail.SimpleMailMessage;

@@ -1,8 +1,8 @@
 package com.carRental.CarRental.repositories;
 
-import com.carRental.CarRental.CarStatus;
-import com.carRental.CarRental.FuelType;
-import com.carRental.CarRental.Transmission;
+import com.carRental.CarRental.enums.CarStatus;
+import com.carRental.CarRental.enums.FuelType;
+import com.carRental.CarRental.enums.Transmission;
 import com.carRental.CarRental.entites.Car;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

@@ -1,7 +1,7 @@
 package com.carRental.CarRental.entites;
 
 
-import com.carRental.CarRental.RoleType;
+import com.carRental.CarRental.enums.RoleType;
 import jakarta.persistence.*;
 import lombok.*;
 

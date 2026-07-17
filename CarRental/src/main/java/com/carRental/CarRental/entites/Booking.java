@@ -1,7 +1,7 @@
 package com.carRental.CarRental.entites;
 
 
-import com.carRental.CarRental.BookingStatus;
+import com.carRental.CarRental.enums.BookingStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

@@ -1,6 +1,6 @@
 package com.carRental.CarRental.Dto.response;
 
-import com.carRental.CarRental.BookingStatus;
+import com.carRental.CarRental.enums.BookingStatus;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

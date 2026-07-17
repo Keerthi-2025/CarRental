@@ -1,8 +1,8 @@
 package com.carRental.CarRental.entites;
 
 
-import com.carRental.CarRental.PaymentStatus;
-import com.carRental.CarRental.PaymentGateway;
+import com.carRental.CarRental.enums.PaymentStatus;
+import com.carRental.CarRental.enums.PaymentGateway;
 import jakarta.persistence.*;
 import lombok.*;
 

@@ -1,11 +1,10 @@
 package com.carRental.CarRental.entites;
 
 
-import com.carRental.CarRental.OtpPurpose;
+import com.carRental.CarRental.enums.OtpPurpose;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;
 

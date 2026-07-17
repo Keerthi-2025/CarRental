@@ -1,6 +1,6 @@
 package com.carRental.CarRental.Dto.request;
 
-import com.carRental.CarRental.Transmission;
+import com.carRental.CarRental.enums.Transmission;
 
 import java.math.BigDecimal;
 

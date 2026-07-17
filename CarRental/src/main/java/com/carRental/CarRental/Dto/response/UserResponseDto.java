@@ -1,6 +1,6 @@
 package com.carRental.CarRental.Dto.response;
 
-import com.carRental.CarRental.RoleType;
+import com.carRental.CarRental.enums.RoleType;
 
 import java.util.UUID;
 
